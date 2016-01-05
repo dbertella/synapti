@@ -1,0 +1,121 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>synapticart</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="../styles/71c1b072.main.css">
+    <script src="../scripts/vendor/1cb556bb.modernizr.js"></script>
+  <style>
+    @media (min-width:768px) {
+      .container {
+        content:'desktop'
+      }
+    }
+    @media (max-width:767px) {
+      .container {
+        content:'mobile'
+      }
+      .home-frame {
+        height:540px;
+        background:url('../images/mobile-title.png') no-repeat;
+      }
+      #player,
+      .home {
+        display: none;
+      }
+    }
+  </style>
+  </head>
+  <body style="background:#8a0000;">
+    
+    <div id="languages">
+      <ul>
+        <li><a href="#" class="home">home</a></li>
+        <li><a href="/index.html">it</a></li>
+        <li class="current">en</li>
+      </ul>
+    </div>
+
+        <div class="container home-frame" style="width:960px; margin:auto; padding:120px 0 0 0; text-align:center; background-position:10px 150px;">
+          <div class="menu" style="position: relative;">
+          <!-- <div onclick="thevid=document.getElementById('player'); thevid.style.display='block'; this.style.display='none'"><img src="images/8cd6766e.frame-finale-it.png" style="cursor:pointer" /></div> -->
+            <div id="player" style="position: absolute; top: 0; left: 96px; z-index: 999;"></div>
+            <img src="../images/b8a9c85a.frame-finale-en.png" id="mobile-img" />
+          </div>
+          <ul id="home-navigation">
+            <li><a href="mission.html">Mission</a></li>
+            <li><a href="workshop.html">Workshop</a></li>
+            <li><a href="conferences.html">Conferences</a></li>
+            <li><a href="sistemi-espositivi.html">Sistemi Espositivi</a></li>
+            <li style="margin-bottom: 5px;"><a href="team.html">Team</a></li>        
+            <li style="margin-bottom: 5px;"><a href="download.html">Download</a></li>
+            <li><a href="contact.html">Contacts</a></li>        
+          </ul> 
+          <div class="social">
+            <a href="https://plus.google.com/u/1/b/105429641201424654452/105429641201424654452/posts/p/pub" class="social-icon gp" target="_blank"></a>
+            <a href="https://www.facebook.com/pages/Synapticart/1562186430694063" class="social-icon fb" target="_blank"></a>
+            <a href="https://twitter.com/synapticart" class="social-icon tw" target="_blank"></a>
+            <a href="http://synapticart.tumblr.com" class="social-icon tb" target="_blank"></a>
+            <a href="https://www.pinterest.com/synapticart/" class="social-icon pi" target="_blank"></a>
+          </div>                             
+        </div> 
+            
+            <script src="http://www.youtube.com/player_api"></script>
+              <script src="../scripts/4776dee8.vendor.js"></script>
+              
+              
+              <script>
+                 $('.home').click(function () {
+                    $('#player').css('display', 'none');
+                  });
+                var client = $('.container').css('content');
+                if (client === 'mobile') {
+
+                  $('#player, .home').css('display', 'none');
+                }
+                 var player;
+                 function onYouTubePlayerAPIReady() {
+                   player = new YT.Player('player', {
+                     height: '432',
+                     width: '768',
+                     videoId: 'Pn4dRQ-_AjY',
+                     color: 'white',
+                     playerVars: {
+                       'controls': 0,
+                       'showinfo': 0,
+                       'rel': 0,
+                       'autohide': 0
+                     },
+                     events: {
+                       'onReady': onPlayerReady,
+                       'onStateChange': onPlayerStateChange
+                     }
+
+                   });
+                 }
+
+                 //autoplay video
+                 function onPlayerReady(event) {
+
+                  event.target.playVideo();
+                }
+
+                 // when video ends
+                 function onPlayerStateChange(event) {        
+                   if(event.data === 0) {          
+                     $('#player').hide();
+                   }
+                 }
+
+                
+              </script>
+
+              
+        <script src="../scripts/13bfcf4b.main.js"></script>
+</body>
+</html>

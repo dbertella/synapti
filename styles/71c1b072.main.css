@@ -1,0 +1,100 @@
+body{font-family:Helvetica}
+.home-frame {
+	height:500px;
+	background:url('../images/3dcb81ad.logo_vert.png') no-repeat;
+}
+.wrap{width:960px;margin:auto}
+.container{padding-left:290px;padding-top:120px;padding-bottom: 50px;position: relative;}
+#languages{width:960px;margin:auto}
+#languages ul{margin:0;padding:50px;float:right; position: relative;z-index: 10;}
+#languages a,#languages li{color:#fff;font-weight:400}
+#languages li{display:inline;font-weight:700}
+#back{position:relative;float:left;color:#fff;left:720px;top:110px;z-index: 10;}
+#next{position:relative;float:left;color:#fff;left:730px;top:110px;z-index: 10;}
+#intro,#intro_img{width:768px;height:432px;margin:auto}
+#mobile-img{display:block;width:768px;height:432px;margin:auto}
+.line-0{margin-left:0}
+.line-1{margin-left:10px}
+.line-2{margin-left:20px}
+.line-3{margin-left:30px}
+.line-4{margin-left:40px}
+.line-5{margin-left:50px}
+.line-6{margin-left:60px}
+.line-7{margin-left:70px}
+.line-8{margin-left:80px}
+.line-9{margin-left:90px}
+.line-10{margin-left:100px}
+.line-11{margin-left:110px}
+.line-12{margin-left:120px}
+.line-13{margin-left:130px}
+.line-14{margin-left:140px}strong{margin-left:-20px;color:#ef1414}
+#home-navigation{position:relative;top:-490px;display:block;width:768px;list-style-type:none;padding:0;margin:120px auto 0}
+#home-navigation li{margin-bottom:15px}
+#home-navigation li a{display:block;width:768px;height:35px;text-decoration:none;color:transparent}
+#mission{height:720px;color:#0f0;background:url(../images/0d14a8fe.mission-tazze.png) 0 115px no-repeat;padding-left: 200px;}
+#mission h1{width:70px;font-size:13px;font-weight:400;margin-top:30px;padding-left:22px;padding-bottom:10px;border-bottom:1px solid red}
+#mission pre{font-family:Helvetica;font-size:12px;line-height:20px}
+#mission pre h1{width:125px;margin-top:0;margin-left:40px;padding-left:0;padding-bottom:0;margin-bottom:-5px}
+#team{height:400px;color:#00ff06;background:url(../images/92e1445d.team.png) 200px 110px no-repeat}
+#team h1{width:100px;font-size:16px;font-weight:400;padding-left:22px;padding-top:10px;padding-bottom:3px;border-bottom:1px solid #fff000;margin-bottom:0}
+#team pre{font-family:Helvetica;font-size:12px;line-height:20px}
+#nicola_colecchia{color:#8c7403;background:url(../images/9ba388a0.nicola_colecchia.png) 210px 110px no-repeat}
+#nicola_colecchia h1{width:130px;font-size:15px;font-weight:400;padding-left:13px;padding-top:0;border-bottom:1px solid #ed1c24}
+#nicola_colecchia pre{font-family:Helvetica;font-size:13px;line-height:18px}
+#nicola_colecchia ul{position:relative;top:-10px;list-style:none;font-size:12px;margin:0;padding:0;line-height:24px}
+#nicola_colecchia ul li{background:url(../images/a7c9a7ca.dash.png) 0 7px no-repeat;padding:0 0 0 35px}
+#workshop{height:570px;color:#fbe600;background:url(../images/aeb64f6d.workshop.png) 70px 110px no-repeat;padding-left:200px}
+#workshop.ita{
+	height: 760px;
+	color: #fbe600;
+	background: url(../images/aeb64f6d.workshop_ita.png) 0px 110px no-repeat;
+	padding-left: 200px;
+}
+#workshop h1{width:90px;font-size:15px;font-weight:400;margin-left:50px;padding-left:22px;border-bottom:1px solid #ed1c24; margin-top: 30px;}
+#workshop pre{font-family:Helvetica;font-size:13px;line-height:19px}
+#workshop pre ul{margin:0;padding:0}
+#workshop pre ul li{list-style-type:none;list-style-image:url(7720af0b.red_bullet.jpg);margin:0 0 0 65px;padding:0}
+#sistemi-espositivi{height:720px;color:#fbe600;background:url(../images/f0d11bc6.sistemi-espositivi.png) 0 115px no-repeat;padding-left:200px}
+#sistemi-espositivi h1{width:175px;font-size:15px;font-weight:400;margin-left:50px;padding-left:22px;padding-bottom:10px;border-bottom:1px solid #ed1c24}
+#sistemi-espositivi pre{font-family:Helvetica;font-size:13px;line-height:20px}
+#sistemi-espositivi pre ul{margin:0;padding:0}
+#sistemi-espositivi pre ul li{list-style-type:none;list-style-image:url(7720af0b.red_bullet.jpg);margin:0 0 0 65px;padding:0}
+#conferences{height:600px;color:#00ff06;background:url(../images/f33f24cf.conferences.png) 100px 110px no-repeat}
+#conferences h1{width:120px;font-size:16px;font-weight:400;margin-left:50px;padding-left:22px;padding-top:15px;padding-bottom:3px;border-bottom:1px solid red}
+#conferences pre{font-family:Helvetica;font-size:12px;line-height:24px}
+#conferences ul{margin-left:40px}
+#conferences li{font-size:12px;line-height:24px;padding-left:30px}
+#download{height:600px;color:#00ff06;background:url(../images/ae37d3c9.download.png) 50px 90px no-repeat; padding-left: 200px;}
+#download h1{width:100px;font-size:16px;font-weight:400;padding-left:22px;padding-top:40px;padding-bottom:3px;border-bottom:1px solid red}
+#download pre{font-family:Helvetica;font-size:16px;line-height:16px}
+#contacts{height:400px;color:#00ff06;background:url(../images/49dcb02a.contacts.png) 200px 110px no-repeat;font-family:Helvetica;font-size:12px}
+#contacts span{padding:0 15px}
+#contacts h1{width:120px;font-size:16px;font-weight:400;padding-left:22px;padding-top:18px;padding-bottom:5px;margin-bottom:35px;border-bottom:1px solid red}
+#contacts pre{font-family:Helvetica;font-size:12px}
+
+.social {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.social-icon {
+	background: url(../images/social-sprite.png);
+	height: 30px;
+	width: 30px;
+	float: left;
+}
+.social-icon + .social-icon {
+	margin-left: 5px;
+}
+.social-icon.fb {
+	  background-position: 190px 0;
+}
+.social-icon.tw {
+	  background-position: 150px 0;
+}
+.social-icon.tb {
+	  background-position: 350px 0;
+}
+.social-icon.pi {
+	  background-position: 30px 0;
+}

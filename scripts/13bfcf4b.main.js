@@ -1,0 +1,1 @@
+$(function(){var a=window.location.pathname;console.log(a)});
