@@ -68,8 +68,8 @@ body{font-family:Helvetica}
 #conferences pre{font-family:Helvetica;font-size:12px;line-height:22px}
 #conferences ul{margin-left:40px}
 #conferences li{font-size:12px;line-height:1.9;padding-left:30px}
-#download{height:600px;color:#00ff06;background:url(../images/ae37d3c9.download.png) 50px 90px no-repeat; padding-left: 200px;}
-#download.media{height:800px;color:#00ff06;background:url(../images/mediabg.png) 0 90px no-repeat; padding-left: 200px;}
+#download {height:800px;color:#00ff06;background:url(../images/SITO_SYNAPTICART_pag_Media_ita.png) 0 46px no-repeat; padding-left: 200px;}
+#download.en {height:800px;color:#00ff06;background:url(../images/SITO_SYNAPTICART_pag_Media_ingl.png) 0 46px no-repeat; padding-left: 200px;}
 #download h1{width:100px;font-size:16px;font-weight:400;padding-left:22px;padding-top:40px;padding-bottom:3px;border-bottom:1px solid red}
 #download pre{font-family:Helvetica;font-size:16px;line-height:16px}
 #contacts{height:400px;color:#00ff06;background:url(../images/49dcb02a.contacts.png) 200px 110px no-repeat;font-family:Helvetica;font-size:12px}
